@@ -1,0 +1,51 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 160px;
+    left: 0px;
+    background: #f1f1f1;
+    overflow-x: hidden;
+    padding: 10px 0;
+}
+
+.sidenav a {
+    padding: 20px 25px 5px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 250px; /* 与sidenav的宽度相同 */
+    font-size: 20px; /* 字体放大，让页面可滚动 */
+    padding: 0px 30px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 10px;}
+    .sidenav a {font-size: 15px;}
+}
+
+.right-float {
+    float: right;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-container {
+    overflow: hidden;
+  }
+
+  a.active {
+    color: rgb(6, 6, 7);
+  }
